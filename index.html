@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Playground</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+
+<div id="wrapper">
+  <div id="container">
+    <main>
+      <form>
+        <article id="questionOne">
+          <label for="one">How do you describe yourself as a developer?</label>
+          <select class="form-control" id="one">
+            <option>Hermit</option>
+            <option>Sociable</option>
+            <option>Serious</option>
+            <option>Grumpy</option>
+            <option>do not know yet</option>
+          </select>
+        </article>
+  
+        <article id="questionTwo">
+          <label for="two">Select the JavaScript based technologies:</label>
+          <select multiple class="form-control" id="two">
+            <option>AngularJS</option>
+            <option>Ember</option>
+            <option>VueJS</option>
+            <option>Java</option>
+            <option>C#</option>
+          </select>
+        </article>
+  
+        <article id="questionThree">
+          <label for="three">Write a palindrome:</label>
+          <input type="text" name="palindrome">
+        </article>
+  
+        <article id="questionFour">
+          <label for="four">Write a sentence:</label>
+          <input type="text" name="sentence" class="mb20">
+  
+          <label for="five">Now in reverse order:</label>
+          <input type="text" name="reverse_sentence">
+        </article>
+  
+        <div id="next">
+          <ul>
+            <li class="hide"><button type="button" onclick="myResults()">Show Results</button></li>
+            <li><button type="button" onclick="nextQuestion()">Next</button></li>
+          </ul>
+        </div>
+      </form>
+      
+      <div class="restaurant"></div>
+    </main>
+  </div>
+  
+  <footer>
+    <div class="progress-bar"></div>
+  </footer>
+</div>
+
+<script src="public/script.js"></script>
+
+</body>
+</html>

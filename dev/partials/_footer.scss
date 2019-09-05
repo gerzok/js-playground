@@ -1,0 +1,13 @@
+footer {
+    width: 100vw;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+
+    .progress-bar {
+        height: 100%;
+        background-color: #f0a3a3;
+        background-image: linear-gradient(to bottom, #f0a3a3, #f42323);
+    }
+}

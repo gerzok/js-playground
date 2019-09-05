@@ -1,0 +1,16 @@
+{
+  "name": "zipdev_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass dev/style.scss public/style.css",
+    "watch": "sass --watch dev/style.scss:public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.22.10"
+  }
+}
